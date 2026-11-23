@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="notaSignTab" label="Nota Sign">
+        <group id="notaSignGroup" label="电子签署">
+          <button id="btnShowTaskPane" label="打开签署面板" onAction="OnAction" getEnabled="OnGetEnabled" getImage="GetImage" visible="true" size="large"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

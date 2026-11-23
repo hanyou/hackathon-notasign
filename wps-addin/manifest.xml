@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JsPlugin>
+  <ApiVersion>1.0.0</ApiVersion>
+  <Name>Nota Sign</Name>
+  <Description>在 WPS 文字中一键发起 Nota Sign 签署</Description>
+</JsPlugin>

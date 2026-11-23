@@ -1,0 +1,15 @@
+{
+	"name": "notasign-wps-addin",
+	"addonType": "wps",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite --port 3890",
+		"build": "vite build",
+		"debug": "wpsjs debug"
+	},
+	"devDependencies": {
+		"vite": "^5.3.1",
+		"wpsjs": "2.2.3"
+	}
+}

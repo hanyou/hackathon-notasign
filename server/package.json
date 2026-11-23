@@ -1,0 +1,1 @@
+{"description":"WPS x Nota Sign hackathon: local companion service (JWT auth + envelope sending)","engines":{"node":">=18"},"name":"notasign-local-server","private":true,"scripts":{"start":"node index.js","test":"node test-send.js"},"version":"0.1.0"}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>Nota Sign 一键签署</title>
+<style>
+  body { font-family: "Microsoft YaHei", sans-serif; margin: 12px; color: #222; }
+  h3 { margin: 4px 0 10px; }
+  .signer { border: 1px solid #ddd; border-radius: 8px; padding: 8px; margin-bottom: 8px; }
+  .signer input { width: 100%; box-sizing: border-box; margin: 3px 0; padding: 6px; }
+  button { padding: 7px 12px; border: 0; border-radius: 6px; background: #2b6de8; color: #fff; cursor: pointer; }
+  button.secondary { background: #eef2fb; color: #2b6de8; }
+  button + button { margin-left: 6px; }
+  #status { white-space: pre-wrap; font-size: 12px; margin-top: 10px; color: #444; }
+  .hint { font-size: 12px; color: #888; }
+</style>
+</head>
+<body>
+  <h3>Nota Sign 一键签署</h3>
+  <p class="hint">为每位签署人填写独立的定位关键字（如「乙方签字：」）。将光标放到对应签署位置，再点击该签署人下方的「在光标处插入标记」。</p>
+
+  <div id="signers"></div>
+  <button class="secondary" id="btnAdd">+ 添加签署人</button>
+
+  <div style="margin-top:14px">
+    <button id="btnSend">一键发起签署</button>
+  </div>
+  <div id="status"></div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

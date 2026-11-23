@@ -1,0 +1,1 @@
+{"appId":"应用详情页的 AppID","baseUrl":"应用详情页的 Base URL（UAT 与生产不同，以详情页为准）","privateKey":"创建应用时保存的 RSA 私钥（Base64 PKCS#8 或完整 PEM 均可）","userCode":"应用详情页的 User Authorization Code"}

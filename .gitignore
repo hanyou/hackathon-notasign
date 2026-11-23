@@ -1,0 +1,5 @@
+# 含真实 RSA 私钥，切勿提交/外发
+server/config.json
+node_modules/
+dist/
+*.log
